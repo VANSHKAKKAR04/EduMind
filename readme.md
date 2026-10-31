@@ -1,6 +1,6 @@
-# 🧠 MindEase: AI-Powered Empathetic Mental Health Platform
+# 🧠 EduMind: AI-Powered Empathetic Mental Health Platform
 
-**MindEase** is a comprehensive, multi-tiered mental health and therapeutic support platform. It combines real-time computer vision (facial emotion recognition), real-time conversational AI (multimodal Gemini voice and text chat), interactive 3D visualizations, analytical dashboarding, and blockchain-based therapist scheduling to deliver a secure, highly personalized, and empathetic wellness experience.
+**EduMind** is a comprehensive, multi-tiered mental health and therapeutic support platform. It combines real-time computer vision (facial emotion recognition), real-time conversational AI (multimodal Gemini voice and text chat), interactive 3D visualizations, analytical dashboarding, and blockchain-based therapist scheduling to deliver a secure, highly personalized, and empathetic wellness experience.
 
 ---
 
