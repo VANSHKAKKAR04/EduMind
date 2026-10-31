@@ -1,0 +1,152 @@
+@import "tailwindcss";.typing-effect {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 0.15em solid white; /* Cursor */
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* Typing Animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Cursor Blink Animation */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+.testimonial-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0; /* Adjust spacing as needed */
+  /* background : linear-gradient(to bottom, #f25a97, #fffafc, #edf9ff); */
+  /* background-color: #fffafc; */
+  margin-bottom: 0%;
+}
+.benefits-section {
+  margin-top: 2rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 0%;
+ /* Adjust spacing as needed */
+  /* background-color : #edf9ff; */
+  /* background : linear-gradient(to bottom, #edf9ff); */
+}
+.sections {
+  background : linear-gradient(to bottom, #ff92be,   #edf9ff,  #edf9ff);
+
+}
+
+.faq-section {
+  margin-top: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ /* Adjust spacing as needed */
+  /* background-color : #edf9ff; */
+  background : linear-gradient(to bottom, #edf9ff, #edf9ff, #ffd1e3, #ff92be);
+}
+.pricing-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ /* Adjust spacing as needed */
+  /* background-color : #edf9ff; */
+  background : linear-gradient(to bottom, #ff92be, #ff92be, #ffd1e3, #edf9ff);
+}/* Container for the AboutInfo component */
+.about-info-container {
+  max-width: 100%; /* Ensure the container doesn't exceed the screen width */
+  padding: 0 20px; /* Add some padding to prevent text from touching the edges */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+/* Typing effect for the heading */
+.typing-effect2 {
+  display: inline-block;
+  overflow: hidden; /* Hide overflow to create the typing effect */
+  white-space: nowrap; /* Keep text on a single line */
+  border-right: 3px solid white; /* Cursor effect */
+  animation: typing 3s steps(40, end),  blink-caret 0.75s step-end infinite;
+}
+
+/* Typing effect for the paragraph */
+.typing-effect-paragraph {
+  display: block; /* Change to block to allow text wrapping */
+  overflow: hidden;
+  white-space: normal; /* Allow text to wrap */
+  border-right: 3px solid white; /* Cursor effect */
+  animation: typing 4s steps(100, end),  blink-caret 0.75s step-end infinite;
+  word-wrap: break-word; /* Break long words to prevent overflow */
+  max-width: 100%; /* Ensure the paragraph doesn't exceed the container width */
+}
+
+/* Typing animation */
+@keyframes typing {
+  from {
+    width: 0; /* Start with no width (text hidden) */
+  }
+  to {
+    width: 100%; /* Expand to full width (text fully visible) */
+  }
+}
+
+/* Cursor blink animation */
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .typing-effect2 {
+    font-size: 20px; /* Smaller font size for smaller screens */
+  }
+
+  .typing-effect-paragraph {
+    font-size: 16px; /* Smaller font size for smaller screens */
+    padding: 0 10px; /* Reduce padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .typing-effect2 {
+    font-size: 18px; /* Even smaller font size for mobile screens */
+  }
+
+  .typing-effect-paragraph {
+    font-size: 14px; /* Even smaller font size for mobile screens */
+    padding: 0 5px; /* Reduce padding further for mobile screens */
+  }
+}
+/* Make Heading Font Bigger and Brighter */
+.abhd {
+  font-size: 2.2rem;  /* Larger font size */
+  font-weight: bold;
+  color: WHITE;
+  text-shadow: 2px 2px 5px #36e7ffcc;  /* Adding a glowing effect */
+  margin-top: 500px;
+}
+
+/* Change paragraph text color for brown/light blue background */
+.typing-effect-paragraph {
+  color: WHITE;  /* Brown color for text */
+  padding: 20px;
+  text-shadow: 2px 2px 5px #f185ff;
+  border-radius: 8px;
+  font-weight: bold;
+}
+/* Adjust the margin-top of the heading */
+.abh1 {
+  margin-top: -130px; /* Move it up */
+}
